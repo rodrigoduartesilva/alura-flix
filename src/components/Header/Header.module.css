@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px;
+  padding: 20px 40px;
+  border-bottom: solid 1px var(--color-primary);
+}
+
+.logo {
+  height: 40px;
+}
+
+.header .button {
+  color:var(--color-white);
+  border-color:var(--color-white);
+  background-color:var(--color-black);
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+      padding: 10px 8px 90px;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 30px;
+  }
+}

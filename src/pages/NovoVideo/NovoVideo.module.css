@@ -1,0 +1,84 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+  padding-bottom: 10rem;
+}
+.novo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 60px;
+}
+
+.main {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form h1 {
+  color: var(--color-gray-white);
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.textField {
+  border-radius: 0.25rem;
+  background: var(--color-white);
+  width: 85rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  color: var(--color-gray-white);
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.multilineField {
+  border-radius: 0.25rem;
+  background: var(--color-white);
+  flex-shrink: 0;
+  color: var(--color-gray-white);
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buttonsLeft {
+  display: flex;
+  gap: 2rem;
+}
+
+.buttonsRight {
+  display: flex;
+}
+
+@media(max-width: 400px) {
+  .form{
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  img {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
